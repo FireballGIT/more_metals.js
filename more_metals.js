@@ -1,4 +1,4 @@
-// Lithium
+// ===== Lithium =====
 elements.lithium = {
     color: ["#747474ff", "#888787ff", "#989898ff"],
     behavior: behaviors.WALL,
@@ -21,13 +21,13 @@ elements.molten_lithium = {
     density: 512
 }
 
-// Chromium
+// ===== Chromium =====
 elements.chromium = {
     color: ["#898989ff", "#7a7a7a", "#dbd9d9ff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
-    fireColor: ["#ffffff", "#ebebeb"], // white sparks
+    fireColor: ["#ffffffff", "#ebebebff"], // white sparks
     stateHigh: "molten_chromium",
     tempHigh: 1907,
     conduct: 1,
@@ -44,13 +44,13 @@ elements.molten_chromium = {
     density: 6660
 }
 
-// Titanium
+// ===== Titanium =====
 elements.titanium = {
     color: ["#3e3e3eff", "#7a7a7a", "#777676ff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
-    fireColor: ["#ffffff", "#e0e0ff"], // white sparks
+    fireColor: ["#ffffffff", "#e0e0ffff"], // white sparks
     stateHigh: "molten_titanium",
     tempHigh: 1668,
     conduct: 1,
@@ -67,13 +67,13 @@ elements.molten_titanium = {
     density: 3930
 }
 
-// Nickel
+// ===== Nickel =====
 elements.nickel = {
     color: ["#a5a5a5ff", "#8c8c8cff", "#b0b0b0ff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
-    fireColor: ["#66ff66", "#99ff99"], // faint green
+    fireColor: ["#66ff66ff", "#99ff99ff", "#00f1c1ff"], // faint green/blue
     stateHigh: "molten_nickel",
     tempHigh: 1455,
     conduct: 1,
@@ -81,7 +81,7 @@ elements.nickel = {
 }
 
 elements.molten_nickel = {
-    color: ["#ffaa33", "#ff9933", "#ff8800"],
+    color: ["#ffaa33ff", "#ff9933ff", "#ff8800ff"],
     behavior: behaviors.LIQUID,
     category: "states",
     state: "liquid",
@@ -90,13 +90,13 @@ elements.molten_nickel = {
     density: 7580
 }
 
-// Cobalt
+// ===== Cobalt =====
 elements.cobalt = {
     color: ["#5f5f8aff", "#7373aaff", "#6b6b9fff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
-    fireColor: ["#3399ff", "#66ccff"], // faint blue
+    fireColor: ["#3399ffff", "#66ccffff"], // faint blue
     stateHigh: "molten_cobalt",
     tempHigh: 1495,
     conduct: 1,
@@ -104,7 +104,7 @@ elements.cobalt = {
 }
 
 elements.molten_cobalt = {
-    color: ["#aabbff", "#99ccff", "#7799ff"],
+    color: ["#aabbffff", "#99ccffff", "#7799ffff"],
     behavior: behaviors.LIQUID,
     category: "states",
     state: "liquid",
@@ -113,13 +113,13 @@ elements.molten_cobalt = {
     density: 7700
 }
 
-// Platinum
+// ===== Platinum =====
 elements.platinum = {
     color: ["#dcdcdcff", "#cfcfcfff", "#e0e0e0ff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
-    fireColor: ["#ffffff", "#f0f0f0"], // white
+    fireColor: ["#ffffffff", "#f0f0f0ff"], // white
     stateHigh: "molten_platinum",
     tempHigh: 1768,
     conduct: 1,
@@ -127,7 +127,7 @@ elements.platinum = {
 }
 
 elements.molten_platinum = {
-    color: ["#ffeedd", "#ffffff", "#f8f8ff"],
+    color: ["#ffeeddff", "#ffffffff", "#f8f8ffff"],
     behavior: behaviors.LIQUID,
     category: "states",
     state: "liquid",
