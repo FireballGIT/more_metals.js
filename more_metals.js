@@ -135,3 +135,5 @@ elements.molten_platinum = {
     tempLow: 1768,
     density: 19300
 }
+
+console.log("Thank you for using More Metals!");
