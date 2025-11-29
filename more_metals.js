@@ -1,3 +1,5 @@
+// ===== More Metals Mod =====
+
 // ===== Lithium =====
 elements.lithium = {
     color: ["#747474ff", "#888787ff", "#989898ff"],
@@ -23,7 +25,7 @@ elements.molten_lithium = {
 
 // ===== Chromium =====
 elements.chromium = {
-    color: ["#898989ff", "#7a7a7a", "#dbd9d9ff"],
+    color: ["#898989ff", "#7a7a7aff", "#dbd9d9ff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
@@ -46,7 +48,7 @@ elements.molten_chromium = {
 
 // ===== Titanium =====
 elements.titanium = {
-    color: ["#3e3e3eff", "#7a7a7a", "#777676ff"],
+    color: ["#3e3e3eff", "#7a7a7aff", "#777676ff"],
     behavior: behaviors.WALL,
     category: "solids",
     state: "solid",
@@ -136,4 +138,5 @@ elements.molten_platinum = {
     density: 19300
 }
 
-console.log("Thank you for using More Metals!");
+// ===== Console Message =====
+console.log("%cThank you for using More Metals!", "color:#00aaff; font-size:18px; font-weight:bold;");
